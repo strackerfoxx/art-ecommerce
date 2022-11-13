@@ -1,3 +1,10 @@
+:root {
+  --primary: #00d591;
+  --black: #262626;
+  --white: #FFF;
+  --fuente-principal: Oswald, sans-serif;
+}
+
 html,
 body {
   padding: 0;
@@ -20,7 +27,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
   }
 }
